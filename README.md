@@ -1,6 +1,6 @@
 # Neverland Lab
 
-git clone https://github.com/carolsworld/neverland-lab-student
+git clone [https://github.com/carolsworld/neverland-lab-student](https://github.com/carolsworld/neverland-lab-student.git)
 
 chmod +x scripts/*.sh
 
