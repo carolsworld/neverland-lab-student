@@ -2,6 +2,8 @@
 
 git clone https://github.com/carolsworld/neverland-lab-student
 
+chmod +x scripts/*.sh
+
 cd neverland-lab-student/
 
 To activate, type
