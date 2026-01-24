@@ -2,9 +2,9 @@
 
 git clone https://github.com/carolsworld/neverland-lab-student.git
 
-chmod +x scripts/*.sh
-
 cd neverland-lab-student/
+
+chmod +x scripts/*.sh
 
 To activate, type
 ./scripts/start-teaching.sh
