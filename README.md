@@ -28,7 +28,7 @@ chmod +x scripts/*.sh
 
 ./scripts/start-teaching.sh
 
-Once started, open http:127.0.0.1:8080
+Once started, open http://127.0.0.1:8080
 
 ### Stop the learning environment:
 
