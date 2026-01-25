@@ -3,6 +3,7 @@ services:
     image: carollokyi/neverland-field-controller:assessment
     ports:
       - "127.0.0.1:502:502"
+    command: ["python", "app_assessment.py"]
 
   neverland-operator-console:
     profiles: ["disabled"]
