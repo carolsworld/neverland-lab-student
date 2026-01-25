@@ -3,7 +3,6 @@ services:
     image: carollokyi/neverland-field-controller:teaching
     ports:
       - "127.0.0.1:502:502"
-    command: ["python", "app.py"]
 
   neverland-operator-console:
     image: carollokyi/neverland-operator-console:teaching

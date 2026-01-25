@@ -1,23 +1,6 @@
 services:
   neverland-field-controller:
-    build: ../services/field-controller
-    container_name: neverland-field-controller
-    networks: [neverland_ot]
-    expose:
-      - "502"
+    restart: unless-stopped
 
   neverland-operator-console:
-    build: ../services/operator-console
-    container_name: neverland-operator-console
-    depends_on: [neverland-field-controller]
-    networks: [neverland_ot]
-    environment:
-      - MODBUS_HOST=neverland-field-controller
-      - MODBUS_PORT=502
-      - MODBUS_SLAVE_ID=1
-    expose:
-      - "8080"
-
-networks:
-  neverland_ot:
-    driver: bridge
+    restart: unless-stopped
