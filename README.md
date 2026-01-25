@@ -17,6 +17,7 @@ This repository provides the **Neverland cyber-physical simulation lab** used in
 ### Clone the repository:
 
 git clone https://github.com/carolsworld/neverland-lab-student.git
+
 cd neverland-lab-student
 
 ### Make the script executable:
