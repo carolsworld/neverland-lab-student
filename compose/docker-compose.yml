@@ -1,6 +1,18 @@
 services:
   neverland-field-controller:
+    image: carollokyi/neverland-field-controller:teaching
     restart: unless-stopped
+    ports:
+      - "127.0.0.1:502:502"
 
   neverland-operator-console:
+    image: carollokyi/neverland-operator-console:teaching
     restart: unless-stopped
+    depends_on:
+      - neverland-field-controller
+    environment:
+      - MODBUS_HOST=neverland-field-controller
+      - MODBUS_PORT=502
+      - MODBUS_SLAVE_ID=1
+    ports:
+      - "127.0.0.1:8080:8080"
