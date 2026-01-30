@@ -2,7 +2,7 @@ services:
   neverland-field-controller:
     image: carollokyi/neverland-field-controller:teaching
     ports:
-      - "1502:502"
+      - "502:502"
 
   neverland-operator-console:
     image: carollokyi/neverland-operator-console:teaching

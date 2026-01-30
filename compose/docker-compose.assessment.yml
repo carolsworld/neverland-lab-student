@@ -2,7 +2,7 @@ services:
   neverland-field-controller:
     image: carollokyi/neverland-field-controller:assessment
     ports:
-      - "1502:502"
+      - "502:502"
     command: ["python", "app_assessment.py"]
 
   neverland-operator-console:
