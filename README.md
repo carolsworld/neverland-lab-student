@@ -6,9 +6,7 @@ This repository provides the **Neverland cyber-physical simulation lab** used in
 
 ## Prerequisites
 
-- Docker
-- Docker Compose
-- Internet connection (for first run only)
+- Kali Linux
 
 ---
 
